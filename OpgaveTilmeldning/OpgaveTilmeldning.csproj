@@ -7,22 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Animals\cat.wav" />
-    <None Remove="Animals\dog.wav" />
-    <None Remove="SoundTest\ost.wav" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Animals\cat.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Animals\dog.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="SoundTest\ost.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
 </Project>
