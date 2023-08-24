@@ -10,7 +10,7 @@ namespace OpgaveTilmeldning.Code
 
     internal class Program
     {
-        // This is my master branch 2.
+        // This is my OOPExercises branch.
         static void Main(string[] args)
         {
 
